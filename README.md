@@ -1,9 +1,3 @@
-1. Users can enter lottery with ETH based on a USD fee
-2. An admin will choose when the lottery is over
-3. The lottery will select a random winner
+# Decentralized lottery
 
-How do we want to test this ?
-
-1. `mainnet-fork``
-2. `development with mocks``
-3. `testnet`
+This codebase was obtained after following the full-blockchain-solidity-course-py lesson 7 [Lesson7: SmartContract Lottery](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#lesson-7-smartcontract-lottery)
