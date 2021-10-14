@@ -62,9 +62,9 @@ def test_can_end_lottery():
 
 
 def test_can_pick_winner_correctly():
-    if network.show_active() not in LOCAL_BLOCKCHAIN_ENVIRONMENTS:
-        pytest.skip
     # Arrange
+    if network.show_active() not in LOCAL_BLOCKCHAIN_ENVIRONMENTS:
+        pytest.skip()
     lottery = deploy_lottery()
     account = get_account()
     lottery.startLottery({"from": account})
